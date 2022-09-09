@@ -9,5 +9,5 @@ docker push veeereshmantgi/jenkins
 docker image ls 
 docker ps 
 docker rmi veeereshmantgi/jenkins
-docker run -itd -p 8082:80 --name c1 veeereshmantgi/jenkins /bin/bash
+docker run -itd -p 8084:80 --name c1 veeereshmantgi/jenkins /bin/bash
 docker ps
