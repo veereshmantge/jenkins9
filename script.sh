@@ -1,5 +1,3 @@
-#!/bin/bash
-
 docker rm -f c1
 # docker rmi veeereshmantgi/jenkins
 docker build -t veeereshmantgi/jenkins .
